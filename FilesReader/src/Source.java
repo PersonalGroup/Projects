@@ -11,7 +11,7 @@ public class Source {
 	public static void main(String[] args) throws RemoteException, MalformedURLException {
 		// TODO Auto-generated method stub
 		final Remote obj = new FileImpl("c:\\myFile.txt");
-		final Remote remoteStub = UnicastRemoteObject.exportObject(obj);
+		final Remote remoteStub = UnicastRemoteObject.exportObject(obj, 19001);
 		Naming.rebind ("//localhost/FileServer", remoteStub);
 	}
 
