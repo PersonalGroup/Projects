@@ -1,0 +1,1 @@
+java -cp C:\Users\Y\Documents\Projects\src;C:\Users\Y\Documents\Projects\output\compute.jar -Djava.rmi.server.codebase=file:/C:/Users/Y/Documents/Projects/output/ -Djava.security.policy=client.policy client.ComputePi localhost 45
