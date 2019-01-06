@@ -18,6 +18,7 @@ public class FileImpl implements FileInterface, Serializable {
 
    public byte[] downloadFile (String fileName) {
       byte[] buffer;
+      fileName = name;
       try {
          File file = new File(fileName);
          buffer = new byte[(int)file.length()];
