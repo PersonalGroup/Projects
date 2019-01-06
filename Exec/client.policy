@@ -1,0 +1,3 @@
+grant codeBase "C:/Users/Y/Documents/Projects/src/" {
+    permission java.security.AllPermission;
+};
