@@ -1,0 +1,2 @@
+start rmiregistry 2001
+java -cp C:\Users\X\Documents\Projects\src;C:\Users\X\Documents\Projects\output\compute.jar -Djava.rmi.server.codebase=file:/C:/Users/X/Documents/Projects/output/compute.jar -Djava.rmi.server.hostname=localhost -Djava.security.policy=server.policy engine.ComputeEngine
